@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="ucapan%20univ_files/sse-hooks.js"></script>
+    <script type="text/javascript" src="ucapan%20univ_files/banner.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ucapan%20univ_files/style.css">
+    <title>Jadian Yuk !</title>
+  </head>
+  <body>
+    <div class="card bg-love">
+      <img id="thumb" src="ucapan%20univ_files/aniv2.jpeg" alt="thumb" class="img-thumb">
+      <h1 class="latin text-center">Hai Kamu</h1>
+      <h2 class="text-center">Sayang Thita Enggak ?</h2>
+      <div class="card-footer">
+        <div class="btn mau" onclick="mau()">Sayang 😍</div>
+        <div class="btn gak" onclick="gakmau(this)" onmouseover="gakmau(this)">
+          Enggak ☹️
+        </div>
+      </div>
+      <div class="info text-center mt-16" id="info"></div>
+      <div class="water-mark text-center">
+        <a href="https://www.tiktok.com/@try_catch_">© Thita Hafsari</a>
+      </div>
+    </div>
+    <div class="text-center mt-16" id="musicbox">
+      <audio id="music" src="ucapan%20univ_files/badai.mp3" type="mpeg " controls="controls"></audio>
+    </div>
+    <script crossorigin="" type="text/javascript" src="ucapan%20univ_files/watermark-button.js"></script>
+  
+  <script>
+    var _info = document.getElementById("info");
+    var _music = document.getElementById("music");
+    function gakmau(element) {
+      element.style.position = "absolute";
+      element.style.left = `${Math.floor(Math.random() * 90)}%`;
+      element.style.top = `${Math.floor(Math.random() * 90)}%`;
+
+      _info.innerHTML = "Harus Sayang Pokoknya 🙄";
+    }
+    function mau() {
+      if (_music.paused) _music.play();
+      _info.innerHTML = "Makasih Sayang 😘. Happy Anniversary.";
+    }
+  </script>
+
+<iframe id="sb__open-sandbox91" style="
+      position: fixed;
+      margin: 0;
+      padding: 0;
+      bottom: 16px;
+      right: 16px;
+      border: none;
+      width: 118px;
+      height: 36px;
+      z-index: 9999999999999;
+    "></iframe></body></html>
